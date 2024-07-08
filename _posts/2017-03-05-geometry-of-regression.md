@@ -9,13 +9,13 @@ tags: [Python, Machine Learning]
 pin: false
 ---
 
-A picture is worth a thousand words. [This post on stats Stack Exchange ](http://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient) gives a great description of the geometric representation of [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) problems. Let's see this in action using some simple examples.
+A picture is worth a thousand words. [This post on stats Stack Exchange ](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient) gives a great description of the geometric representation of [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) problems. Let's see this in action using some simple examples.
 
 The below graphic, which appeared in the original stack-exchange post, captures the essence of Linear Regression very aptly.
 
 ![Regression Picture](/assets/regression.png)
 
-Source: [Stack Exchange](http://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)
+Source: [Stack Exchange](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient)
 
 ## Overview
 
