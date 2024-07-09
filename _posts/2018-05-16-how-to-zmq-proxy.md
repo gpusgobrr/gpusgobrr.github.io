@@ -9,13 +9,13 @@ pin: false
 author: ks
 ---
 
-[ZeroMQ](http://zeromq.org/) is my favorite message passing and networking library. It has bindings for almost all major languages and it's super convenient to build polyglot distributed network applications with it. Also, ZeroMQ documentation and examples are very exhaustive.
+[ZeroMQ](https://zeromq.org/) is my favorite message passing and networking library. It has bindings for almost all major languages and it's super convenient to build polyglot distributed network applications with it. Also, ZeroMQ documentation and examples are very exhaustive.
 
 ## Dynamic Discovery Problem
 
 I was recently struck with a problem where I had multiple ZeroMQ consumers connecting to multiple ZeroMQ producers. I needed a way to have a static port for consuming messages since adding new consumers and producers was getting hard to maintain. This is because all consumers needed to change whenever a new producer was added to the system.
 
-That's where I discovered the [Dynamic Discovery Problem](http://zguide.zeromq.org/java:chapter2#The-Dynamic-Discovery-Problem), which is precisely the problem that I described above. ZeroMQ documentation suggests using pub-sub proxy as a simple solution to this problem. In the post, I will create a working example for pub-sub proxy in `Java`.
+That's where I discovered the [Dynamic Discovery Problem](https://zguide.zeromq.org/java:chapter2#The-Dynamic-Discovery-Problem), which is precisely the problem that I described above. ZeroMQ documentation suggests using pub-sub proxy as a simple solution to this problem. In the post, I will create a working example for pub-sub proxy in `Java`.
 
 <img src="/assets/zmq_proxy.png" alt="ZMQ Proxy" style="background: white; padding: 10px;">
 

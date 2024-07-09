@@ -10,11 +10,11 @@ math: true
 author: ks
 ---
 
-I previously wrote a [post](http://www.sharmakapil.com/2018/08/26/kernel-smoothing.html) about **Kernel Smoothing** and how it can be used to fit a non-linear function non-parametrically. In this post, I will extend on that idea and try to mitigate the disadvantages of kernel smoothing using **Local Linear Regression**.
+I previously wrote a [post](../kernel-smoothing/) about **Kernel Smoothing** and how it can be used to fit a non-linear function non-parametrically. In this post, I will extend on that idea and try to mitigate the disadvantages of kernel smoothing using **Local Linear Regression**.
 
 ## Setup
 
-I generated some data in my previous [post](http://www.sharmakapil.com/2018/08/26/kernel-smoothing.html) and I will reuse the same data for this post. The data was generated from the function $\mathbf{y = f(x) = sin(4x) + 2}$ with some **Gaussian** noise and here's how it looks:
+I generated some data in my previous [post](../kernel-smoothing/) and I will reuse the same data for this post. The data was generated from the function $\mathbf{y = f(x) = sin(4x) + 2}$ with some **Gaussian** noise and here's how it looks:
 
 ![local_linear_regression_bokeh_plot](/assets/local_linear_regression_bokeh_plot_1.png)
 

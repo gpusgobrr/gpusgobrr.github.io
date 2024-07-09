@@ -100,7 +100,7 @@ In **Kernel Smoothing**, we take the idea further by using all the training data
 
 > When the `bandwidth` is smaller, the weighting effect of the kernel is more localized
 
-This idea of localization goes beyond **Gaussian Kernel** and also applies to other common kernel functions such as the [Epanechnikov Kernel](http://gmelli.org/RKB/Epanechnikov_Kernel).
+This idea of localization goes beyond **Gaussian Kernel** and also applies to other common kernel functions such as the [Epanechnikov Kernel](https://gmelli.org/RKB/Epanechnikov_Kernel).
 
 As part of the procedure, we use the kernel function and the `bandwidth` $$h$$ to smooth the data points to obtain a local estimate of the response variable.
 
@@ -181,7 +181,7 @@ The next step is to find a **"good"** value for `bandwidth` and we can use [Cros
 
 Splitting the data helps with not using the same data twice to fit the model parameters. Either the data point is used in training set or validation set. Training set is used to fit our model parameters, which are used to predict the values of response variable in the validation set. Hence, we can calculate the quality of our prediction based on the prediction error of validation set.
 
-[`scikit-learn`](http://scikit-learn.org/stable/) has modules for different cross validation techniques. However, I will implement these from scratch using `numpy` to avoid the dependency on `scikit-learn` just for cross validation.
+[`scikit-learn`](https://scikit-learn.org/stable/) has modules for different cross validation techniques. However, I will implement these from scratch using `numpy` to avoid the dependency on `scikit-learn` just for cross validation.
 
 Let's discuss two of these techniques:
 
@@ -361,7 +361,7 @@ In this post, we took a step-by-step approach to fit **Kernel Smoothing** using 
 ## Sources
 
 1. [Elements of Statistical Learning - Chapter 6](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
-2. [Stanford STATS 306](http://statweb.stanford.edu/~tibs/sta306bfiles/cvwrong.pdf)
+2. [Stanford STATS 306](https://statweb.stanford.edu/~tibs/sta306bfiles/cvwrong.pdf)
 
 ## Appendix
 

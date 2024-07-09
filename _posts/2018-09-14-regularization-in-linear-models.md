@@ -16,7 +16,7 @@ Least squares estimates are often not very satisfactory due to their poor out-of
 
 ## Setup
 
-For starters, we will use the `Prostate Cancer` dataset from the [**Elements of Statistical Learning**](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576) book. If you want more information about the dataset, it's available in *Chapter 1* of the book or [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.info.txt) and the dataset is available [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data)
+For starters, we will use the `Prosxtate Cancer` dataset from the [**Elements of Statistical Learning**](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576) book. If you want more information about the dataset, it's available in *Chapter 1* of the book or [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.info.txt) and the dataset is available [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data)
 
 If you want to follow along with some code, I have put a [`Jupyter` Notebook](https://github.com/kapilsh/ml-projects/blob/master/regularization/Regularization.ipynb) on **Github**.
 
@@ -61,7 +61,7 @@ plt.show()
 
 ![png](/assets/prostate_multi_scatter.png)
 
-We will need the [**L2-Norm**](http://mathworld.wolfram.com/L2-Norm.html) for the Linear Least Squares model, so let's implement that.
+We will need the [**L2-Norm**](https://mathworld.wolfram.com/L2-Norm.html) for the Linear Least Squares model, so let's implement that.
 
 ```python
 def norm(betas, x_train, y_train):
@@ -414,4 +414,4 @@ In this post, I discussed how to use regularization in the case of linear models
 ## Sources
 
 1. [Elements of Statistical Learning - Chapter 3](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
-2. [Stanford STATS 305](http://statweb.stanford.edu/~tibs/sta305files/Rudyregularization.pdf)
+2. [Stanford STATS 305](https://statweb.stanford.edu/~tibs/sta305files/Rudyregularization.pdf)
