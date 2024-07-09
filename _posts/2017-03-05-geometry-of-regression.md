@@ -2,12 +2,12 @@
 title: Geometry of Regression
 description: >-
   Geometric Interpretation of Linear Regression
-author: Kapil Sharma
 date: 2017-03-05
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning]
 pin: false
 math: true
+author: ks
 ---
 
 A picture is worth a thousand words. [This post on stats Stack Exchange ](https://stats.stackexchange.com/questions/123651/geometric-interpretation-of-multiple-correlation-coefficient-r-and-coefficient) gives a great description of the geometric representation of [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) problems. Let's see this in action using some simple examples.

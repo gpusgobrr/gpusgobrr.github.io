@@ -2,11 +2,11 @@
 title: Transformers from Scratch
 description: >-
   Another article in the wild on writing transformers from scratch
-author: Kapil Sharma
 date: 2024-07-02
 categories: [Blog, Tutorial]
 tags: [AI, Transformers, Pytorch]
 pin: true
+author: ks
 ---
 
 So, there are plenty of "Transformers from Scratch" articles and videos out there in the wild and I would be lying if I said I did not look at any of them before writing my own. So why this?

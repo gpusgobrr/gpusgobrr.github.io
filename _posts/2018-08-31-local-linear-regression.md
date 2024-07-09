@@ -2,12 +2,12 @@
 title: Local Linear Regression
 description: >-
   Moving from Locally Weighted Constants to Lines
-author: Kapil Sharma
 date: 2018-08-31
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning, Kernel Methods]
 pin: false
 math: true
+author: ks
 ---
 
 I previously wrote a [post](http://www.sharmakapil.com/2018/08/26/kernel-smoothing.html) about **Kernel Smoothing** and how it can be used to fit a non-linear function non-parametrically. In this post, I will extend on that idea and try to mitigate the disadvantages of kernel smoothing using **Local Linear Regression**.

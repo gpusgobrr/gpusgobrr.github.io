@@ -2,11 +2,11 @@
 title: LSTM Writes Animal Farm
 description: >-
   Train LSTM on Animal Farm and create new text
-author: Kapil Sharma
 date: 2021-04-21
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning, AI, RNN]
 pin: true
+author: ks
 ---
 
 RNNs, and specially LSTMs are excellent models for language modelling. In this post, I will train an LSTM character by character to generate sample text from the famous novel [Animal Farm](https://en.wikipedia.org/wiki/Animal_Farm) by George Orwell.

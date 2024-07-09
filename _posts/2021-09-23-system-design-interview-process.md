@@ -2,11 +2,11 @@
 title: System Design Interview Process
 description: >-
   How to approach system design interview
-author: Kapil Sharma
 date: 2021-09-23
 categories: [Blog, Guide]
 tags: [Interview, System Design]
 pin: true
+author: ks
 ---
 
 If you have gone through any technical interview process in the recent past, chances are that you have come across at least one round of system design interview. There are various great resources out there to prepare for these interviews, but one of the important aspect is knowing how to manage time while talking about a system. In this post, I will outline a process that I followed in my recent technical interview processes. I am writing this post with the assumption of a 45 min interview.

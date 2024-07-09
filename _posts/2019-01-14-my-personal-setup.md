@@ -2,11 +2,11 @@
 title: My Personal Setup
 description: >-
   Setup of my linux development environment
-author: Kapil Sharma
 date: 2019-01-12
 categories: [Blog, Guide]
 tags: [Linux, General]
 pin: true
+author: ks
 ---
 
 This is more of a personal to-do list to setup a new linux development environment. Hope, this helps others to setup their own.

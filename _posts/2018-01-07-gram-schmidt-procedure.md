@@ -2,12 +2,12 @@
 title: Gram-Schmidt Procedure
 description: >-
   Solving Regression using Gram-Schmidt Procedure
-author: Kapil Sharma
 date: 2018-01-07
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning]
 pin: false
 math: true
+author: ks
 ---
 
 An interesting way to understand [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) is [Gram-Schmidt Method](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process) of successive projections to calculate the coefficients of regression. Gram-Schmidt procedure transforms the variables into a new set of orthogonal or uncorrelated variables. On applying the procedure, we should get exactly the same regression coefficients as with projection of predicted variable on the feature space.

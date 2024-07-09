@@ -2,12 +2,12 @@
 title: Regularization in Linear Models
 description: >-
   Ridge and Lasso Regression
-author: Kapil Sharma
 date: 2018-08-31
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning]
 pin: false
 math: true
+author: ks
 ---
 
 Least squares estimates are often not very satisfactory due to their poor out-of-sample performance, especially when the model is overly complex with a lot of features. We can attribute this to low bias and large variance in least squares estimates. Additionally, when we have a lot of features in our model, it is harder to explain the features with the strongest effect or what we call the **Big Picture**. Hence, we might want to choose fewer features in order to trade a worse in-sample variance for a better out-of-sample prediction.

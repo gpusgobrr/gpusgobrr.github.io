@@ -2,11 +2,11 @@
 title: Kernel Smoothing
 description: >-
   Gaussian Kernel Smoothing and Optimal Bandwidth Selection
-author: Kapil Sharma
 date: 2018-08-26
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning, Kernel Methods]
 pin: false
+author: ks
 ---
 
 [Kernel Method](https://en.wikipedia.org/wiki/Kernel_method) is one of the most popular non-parametric methods to estimate probability density and regression functions. As the word `Non-Parametric` implies, it uses the structural information in the existing data to estimate response variable for out-of-sample data.

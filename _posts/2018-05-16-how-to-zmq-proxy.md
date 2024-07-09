@@ -2,11 +2,11 @@
 title: ZeroMQ Proxy
 description: >-
   How to Solve the Dynamic Discovery Problem in ZeroMQ
-author: Kapil Sharma
 date: 2018-05-16
 categories: [Blog, Tutorial]
 tags: [Java, ZeroMQ, Microservices]
 pin: false
+author: ks
 ---
 
 [ZeroMQ](http://zeromq.org/) is my favorite message passing and networking library. It has bindings for almost all major languages and it's super convenient to build polyglot distributed network applications with it. Also, ZeroMQ documentation and examples are very exhaustive.
