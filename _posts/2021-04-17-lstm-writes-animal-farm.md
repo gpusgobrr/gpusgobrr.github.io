@@ -29,7 +29,8 @@ print(text[:100])
 # 'Chapter I\n\nMr. Jones, of the Manor Farm, had locked the hen-houses for the night, but\nwas too 
 ```
 
-Text in itself is hard to feed into a machine learning model, so typically it is [one hot encoded](https://en.wikipedia.org/wiki/One-hot) into sparse vectors of [0, 1] where numbers represent whether individual characters/words are present.
+Text in itself is hard to feed into a machine learning model, so typically it is [one hot encoded](https://en.wikipedia.org/wiki/One-hot) into sparse vectors of `[0, 1]` where numbers represent whether individual characters/words are present.
+
 Since we are training char by char, we will tokenize each character as a number. Below I write a function to load all the text and tokenize it:
 
 ```python
@@ -176,6 +177,8 @@ print(output.shape)
 ```
 
 Great! All the dimensions match. Now we can create a training routine to start training and validating our model. I save the different checkpoints of the model after each epoch to compare how the model improves after each epoch. During training, I also use SummaryWriter class from PyTorch that allows us to load results into [Tensorboard](https://www.tensorflow.org/tensorboard).
+
+### ModelRunner
 
 ```python
 class ModelRunner:
@@ -497,5 +500,6 @@ stall would be an any of the stratiction of the past was
 all the past of the past of
 ```
 
-Github Link
+## Github Link
+
 You can access the full project on my [Github repo](https://github.com/kapilsh/ml-projects).

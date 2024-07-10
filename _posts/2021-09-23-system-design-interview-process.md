@@ -5,7 +5,7 @@ description: >-
 date: 2021-09-23
 categories: [Blog, Guide]
 tags: [Interview, System Design]
-pin: true
+pin: false
 author: ks
 ---
 

@@ -5,7 +5,7 @@ description: >-
 date: 2019-02-19
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning, Deep Learning, CNN]
-pin: true
+pin: false
 author: ks
 ---
 

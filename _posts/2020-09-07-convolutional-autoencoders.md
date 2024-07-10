@@ -5,7 +5,7 @@ description: >-
 date: 2020-09-07
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning, Deep Learning]
-pin: false
+pin: true
 author: ks
 ---
 

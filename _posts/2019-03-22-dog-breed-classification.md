@@ -36,6 +36,8 @@ train_loader = DataLoader(
 
 I defined a class that provides access to train, test and validation datasets as below:
 
+### DataProvider
+
 ```python
 class DataProvider:
     def __init__(self, root_dir: str, **kwargs):
@@ -107,6 +109,8 @@ class DataProvider:
 This is a practical post, so I won't get into too much detail on how I came up with the architecture. However, the general idea is to apply convolutional filters to the image to capture spatial features from the image and then use pooling to enhance the features after each layer. I will be using 5 convolutional layers, with each convolutional layer followed by a max-pooling layer. The convolutional layers are followed by 2 fully-connected layers with ReLU activation and dropout in the middle.
 
 I defined the architecture using a `nn.Module` implementation.
+
+### Neural Net Architecture
 
 ```python
 class NeuralNet(nn.Module):
@@ -278,6 +282,8 @@ NeuralNet(
 Process finished with exit code 0
 ```
 
+![dog-breed-classify-lc.png](/assets/dog-breed-classify-lc.png)
+
 > The validation loss stops improving much after epoch 10. Training loss keeps decreasing, as expected
 {: .prompt-tip }
 
@@ -311,11 +317,15 @@ Let's look at some of the prediction results in the images below. <span style="c
 
 ![dog-breed-classification-3.png](/assets/dog-breed-classification-3.png)
 
+![impressed.gif](/assets/impressed.gif){: width="200" }
+
 > **Result**: The final test accuracy is around 19%, which is... well not that good but... not that bad either considering we didn't use a very deep CNN. The final test loss value is close to our final validation loss value
 {: .prompt-info }
 
 > **Spoiler Alert:** We can do much better than this using Transfer Learning on a pre-trained model like VGG-16, that we used to detect dog images in the precious post
 {: .prompt-warning }
+
+### Model Training
 
 The final Model class looks like below:
 

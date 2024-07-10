@@ -16,7 +16,7 @@ Least squares estimates are often not very satisfactory due to their poor out-of
 
 ## Setup
 
-For starters, we will use the `Prosxtate Cancer` dataset from the [**Elements of Statistical Learning**](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576) book. If you want more information about the dataset, it's available in *Chapter 1* of the book or [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.info.txt) and the dataset is available [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data)
+For starters, we will use the Prostate Cancer dataset from the [**Elements of Statistical Learning**](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576) book. If you want more information about the dataset, it's available in *Chapter 1* of the book or [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.info.txt) and the dataset is available [**here**](https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data)
 
 If you want to follow along with some code, I have put a [`Jupyter` Notebook](https://github.com/kapilsh/ml-projects/blob/master/regularization/Regularization.ipynb) on **Github**.
 
@@ -154,7 +154,7 @@ logger.info(f"MSE: {np.round(mse, 4)}")
 logger.info(f"Beta Errors:\n{betas_estimate_table}")
 ```
 
-```out
+```
 2018-09-08 16:09:32.860426 - [INFO] - {root:<module>:12} - Degrees of Freedom: 58
 2018-09-08 16:09:32.865155 - [INFO] - {root:<module>:13} - MSE: 0.5074
 2018-09-08 16:09:32.872027 - [INFO] - {root:<module>:14} - Beta Errors:

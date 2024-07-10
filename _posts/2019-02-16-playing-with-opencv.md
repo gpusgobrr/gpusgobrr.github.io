@@ -5,7 +5,7 @@ description: >-
 date: 2019-02-16
 categories: [Blog, Tutorial]
 tags: [Python, Machine Learning]
-pin: true
+pin: false
 author: ks
 ---
 
@@ -21,7 +21,7 @@ Firstly, let us download the images. The images can be downloaded from [Dog Imag
 
 Loading images is very simple with OpenCV and images are loaded as numpy arrays
 
-```Python
+```python
 import cv2
 cv2.imread(file_name)
 file_name='/data/dog_images/train/124.Poodle/Poodle_07929.jpg'

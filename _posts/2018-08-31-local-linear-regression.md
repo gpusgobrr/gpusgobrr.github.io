@@ -117,7 +117,7 @@ coeffs = [local_coeffs(x_0, x, y, h_trial) for x_0 in x_trials]
 print(coeffs)
 ```
 
-```out
+```
 [array([ 1.10375711, -0.24977984]), 
 array([ 1.93831019,  3.12814681]), 
 array([ 2.04711505,  3.62427698]), 
@@ -183,7 +183,7 @@ h_range = np.linspace(0.01, 0.2, 20) # Range to check h in
 ![local_linear_regression_bokeh_plot](/assets/local_linear_regression_bokeh_plot_4.png)
 
 
-```out
+```
 h_optimal : 0.09
 ```
 
@@ -200,7 +200,7 @@ num_tries = 5
 ![local_linear_regression_bokeh_plot](/assets/local_linear_regression_bokeh_plot_6.png)
 
 
-```out
+```
 h_optimal : 0.06
 ```
 

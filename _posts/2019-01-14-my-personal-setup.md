@@ -5,7 +5,7 @@ description: >-
 date: 2019-01-12
 categories: [Blog, Guide]
 tags: [Linux, General]
-pin: true
+pin: false
 author: ks
 ---
 

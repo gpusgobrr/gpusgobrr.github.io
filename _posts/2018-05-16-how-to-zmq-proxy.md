@@ -5,7 +5,7 @@ description: >-
 date: 2018-05-16
 categories: [Blog, Tutorial]
 tags: [Java, ZeroMQ, Microservices]
-pin: false
+pin: true
 author: ks
 ---
 
@@ -26,15 +26,8 @@ Let's create a **Publisher** that randomly sends payloads with topics between `0
 ```java
 Context context = ZMQ.context(1);
 Socket publisher = context.socket(ZMQ.PUB);
-```
-
-
-```java
 Random rand = new Random(System.currentTimeMillis());
 int serverNo = rand.nextInt(10000);
-```
-
-```java
 publisher.connect("tcp://127.0.0.1:9999"); // Connect to Proxy Server
 ```
 
